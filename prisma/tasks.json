@@ -1,0 +1,520 @@
+[
+  {
+    "title": "Fazer compras no supermercado",
+    "description": "Comprar leite, ovos, pão e frutas",
+    "status": "PENDING",
+    "createdAt": "2023-10-01T09:00:00Z",
+    "updatedAt": "2023-10-01T09:00:00Z"
+  },
+  {
+    "title": "Enviar relatório mensal",
+    "description": "Preparar e enviar relatório para a equipe de gestão",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-01T10:30:00Z",
+    "updatedAt": "2023-10-02T14:15:00Z"
+  },
+  {
+    "title": "Agendar consulta médica",
+    "description": "Ligar para o Dr. Silva e marcar check-up anual",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-02T08:45:00Z",
+    "updatedAt": "2023-10-02T15:20:00Z"
+  },
+  {
+    "title": "Estudar para certificação",
+    "description": "Revisar módulos 5 e 6 para a prova de certificação",
+    "status": "PENDING",
+    "createdAt": "2023-10-02T18:00:00Z",
+    "updatedAt": "2023-10-02T18:00:00Z"
+  },
+  {
+    "title": "Atualizar currículo",
+    "description": "Adicionar experiência recente e novas habilidades",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-03T11:20:00Z",
+    "updatedAt": "2023-10-04T09:10:00Z"
+  },
+  {
+    "title": "Organizar armário",
+    "description": "Separar roupas para doação e reorganizar espaço",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-04T14:00:00Z",
+    "updatedAt": "2023-10-05T10:00:00Z"
+  },
+  {
+    "title": "Reunião com equipe de projeto",
+    "description": "Discutir marcos do projeto e próximos passos",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-05T09:00:00Z",
+    "updatedAt": "2023-10-05T11:30:00Z"
+  },
+  {
+    "title": "Pagar contas",
+    "description": "Luz, água e internet",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-06T16:45:00Z",
+    "updatedAt": "2023-10-07T10:15:00Z"
+  },
+  {
+    "title": "Escrever post para blog",
+    "description": "Artigo sobre boas práticas de desenvolvimento",
+    "status": "PENDING",
+    "createdAt": "2023-10-07T20:00:00Z",
+    "updatedAt": "2023-10-07T20:00:00Z"
+  },
+  {
+    "title": "Fazer backup do computador",
+    "description": "Backup completo dos documentos importantes",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-08T13:10:00Z",
+    "updatedAt": "2023-10-08T15:45:00Z"
+  },
+  {
+    "title": "Planejar viagem de férias",
+    "description": "Pesquisar destinos e fazer orçamento",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-09T18:30:00Z",
+    "updatedAt": "2023-10-10T12:00:00Z"
+  },
+  {
+    "title": "Aprender nova receita",
+    "description": "Encontrar e preparar um prato italiano novo",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-10T12:00:00Z",
+    "updatedAt": "2023-10-11T12:00:00Z"
+  },
+  {
+    "title": "Configurar novo smartphone",
+    "description": "Transferir dados e instalar apps essenciais",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-11T09:15:00Z",
+    "updatedAt": "2023-10-11T11:30:00Z"
+  },
+  {
+    "title": "Doar livros usados",
+    "description": "Separar livros para doar para biblioteca comunitária",
+    "status": "PENDING",
+    "createdAt": "2023-10-12T14:20:00Z",
+    "updatedAt": "2023-10-12T14:20:00Z"
+  },
+  {
+    "title": "Revisar contrato com cliente",
+    "description": "Analisar cláusulas e sugerir alterações",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-13T10:00:00Z",
+    "updatedAt": "2023-10-14T16:00:00Z"
+  },
+  {
+    "title": "Praticar exercícios físicos",
+    "description": "30 minutos de atividade física diária",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-14T07:00:00Z",
+    "updatedAt": "2023-10-15T07:30:00Z"
+  },
+  {
+    "title": "Organizar emails",
+    "description": "Limpar caixa de entrada e criar filtros",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-15T13:45:00Z",
+    "updatedAt": "2023-10-16T09:00:00Z"
+  },
+  {
+    "title": "Atualizar software do computador",
+    "description": "Instalar atualizações pendentes do sistema",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-16T08:00:00Z",
+    "updatedAt": "2023-10-16T09:15:00Z"
+  },
+  {
+    "title": "Plantar mudas no jardim",
+    "description": "Comprar e plantar novas mudas de flores",
+    "status": "PENDING",
+    "createdAt": "2023-10-17T16:00:00Z",
+    "updatedAt": "2023-10-17T16:00:00Z"
+  },
+  {
+    "title": "Escrever carta para avós",
+    "description": "Atualizar sobre novidades e agradecer presentes",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-18T19:00:00Z",
+    "updatedAt": "2023-10-19T10:00:00Z"
+  },
+  {
+    "title": "Pesquisar cursos online",
+    "description": "Encontrar curso sobre desenvolvimento web avançado",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-19T11:30:00Z",
+    "updatedAt": "2023-10-20T11:30:00Z"
+  },
+  {
+    "title": "Limpar garagem",
+    "description": "Organizar e descartar itens não utilizados",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-20T14:00:00Z",
+    "updatedAt": "2023-10-21T10:00:00Z"
+  },
+  {
+    "title": "Revisar proposta comercial",
+    "description": "Ajustar valores e prazos para novo cliente",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-21T09:00:00Z",
+    "updatedAt": "2023-10-21T12:45:00Z"
+  },
+  {
+    "title": "Assistir tutorial sobre React",
+    "description": "Aprender novos hooks e padrões de projeto",
+    "status": "PENDING",
+    "createdAt": "2023-10-22T20:00:00Z",
+    "updatedAt": "2023-10-22T20:00:00Z"
+  },
+  {
+    "title": "Comprar presente de aniversário",
+    "description": "Presente para a festa do João no próximo fim de semana",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-23T17:30:00Z",
+    "updatedAt": "2023-10-24T13:15:00Z"
+  },
+  {
+    "title": "Configurar VPN",
+    "description": "Instalar e configurar VPN para trabalho remoto",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-24T08:45:00Z",
+    "updatedAt": "2023-10-25T08:45:00Z"
+  },
+  {
+    "title": "Fazer orçamento para reforma",
+    "description": "Cotar materiais e mão de obra para reforma do banheiro",
+    "status": "PENDING",
+    "createdAt": "2023-10-25T15:00:00Z",
+    "updatedAt": "2023-10-25T15:00:00Z"
+  },
+  {
+    "title": "Participar de webinar",
+    "description": "Webinar sobre tendências de mercado às 14h",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-26T10:00:00Z",
+    "updatedAt": "2023-10-26T16:00:00Z"
+  },
+  {
+    "title": "Testar nova funcionalidade",
+    "description": "Realizar testes na nova feature do sistema",
+    "status": "CANCELLED",
+    "createdAt": "2023-10-27T09:30:00Z",
+    "updatedAt": "2023-10-28T09:00:00Z"
+  },
+  {
+    "title": "Agendar revisão do carro",
+    "description": "Ligar para oficina e marcar revisão periódica",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-28T11:00:00Z",
+    "updatedAt": "2023-10-28T11:30:00Z"
+  },
+  {
+    "title": "Escrever roteiro para vídeo",
+    "description": "Roteiro para tutorial de 10 minutos",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-10-29T14:00:00Z",
+    "updatedAt": "2023-10-30T14:00:00Z"
+  },
+  {
+    "title": "Trocar lâmpadas queimadas",
+    "description": "Substituir lâmpadas da cozinha e do corredor",
+    "status": "PENDING",
+    "createdAt": "2023-10-30T18:00:00Z",
+    "updatedAt": "2023-10-30T18:00:00Z"
+  },
+  {
+    "title": "Preparar apresentação para reunião",
+    "description": "Slides para apresentação de resultados trimestrais",
+    "status": "COMPLETED",
+    "createdAt": "2023-10-31T08:00:00Z",
+    "updatedAt": "2023-10-31T12:00:00Z"
+  },
+  {
+    "title": "Aprender a tocar nova música",
+    "description": "Praticar acordes da nova música no violão",
+    "status": "PENDING",
+    "createdAt": "2023-11-01T19:00:00Z",
+    "updatedAt": "2023-11-01T19:00:00Z"
+  },
+  {
+    "title": "Fazer limpeza digital",
+    "description": "Organizar arquivos e excluir documentos desnecessários",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-02T13:00:00Z",
+    "updatedAt": "2023-11-02T15:30:00Z"
+  },
+  {
+    "title": "Planejar cardápio semanal",
+    "description": "Definir refeições para a próxima semana e lista de compras",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-03T10:00:00Z",
+    "updatedAt": "2023-11-04T10:00:00Z"
+  },
+  {
+    "title": "Assinar documento digital",
+    "description": "Assinar contrato enviado pelo departamento jurídico",
+    "status": "CANCELLED",
+    "createdAt": "2023-11-04T16:00:00Z",
+    "updatedAt": "2023-11-05T09:00:00Z"
+  },
+  {
+    "title": "Participar de treinamento",
+    "description": "Treinamento sobre novas políticas da empresa",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-05T09:00:00Z",
+    "updatedAt": "2023-11-05T11:00:00Z"
+  },
+  {
+    "title": "Resolver problema no roteador",
+    "description": "Configurar roteador para melhorar conexão WiFi",
+    "status": "PENDING",
+    "createdAt": "2023-11-06T18:30:00Z",
+    "updatedAt": "2023-11-06T18:30:00Z"
+  },
+  {
+    "title": "Doar roupas de inverno",
+    "description": "Separar casacos e cobertores para doação",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-07T14:00:00Z",
+    "updatedAt": "2023-11-08T10:00:00Z"
+  },
+  {
+    "title": "Gravar demo do produto",
+    "description": "Vídeo demonstrando as principais funcionalidades",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-08T11:00:00Z",
+    "updatedAt": "2023-11-09T11:00:00Z"
+  },
+  {
+    "title": "Pesquisar destinos para lua de mel",
+    "description": "Comparar pacotes e preços para viagem",
+    "status": "PENDING",
+    "createdAt": "2023-11-09T20:00:00Z",
+    "updatedAt": "2023-11-09T20:00:00Z"
+  },
+  {
+    "title": "Atualizar senhas",
+    "description": "Alterar senhas de serviços importantes",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-10T08:30:00Z",
+    "updatedAt": "2023-11-10T09:45:00Z"
+  },
+  {
+    "title": "Organizar fotos digitais",
+    "description": "Classificar e fazer backup das fotos do último ano",
+    "status": "PENDING",
+    "createdAt": "2023-11-11T15:00:00Z",
+    "updatedAt": "2023-11-11T15:00:00Z"
+  },
+  {
+    "title": "Revisar código do colega",
+    "description": "Analisar pull request no repositório do projeto",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-12T10:00:00Z",
+    "updatedAt": "2023-11-12T12:30:00Z"
+  },
+  {
+    "title": "Comprar material de escritório",
+    "description": "Papel, canetas e post-its para home office",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-13T13:00:00Z",
+    "updatedAt": "2023-11-14T13:00:00Z"
+  },
+  {
+    "title": "Assistir documentário educativo",
+    "description": "Documentário sobre sustentabilidade ambiental",
+    "status": "CANCELLED",
+    "createdAt": "2023-11-14T19:30:00Z",
+    "updatedAt": "2023-11-15T10:00:00Z"
+  },
+  {
+    "title": "Configurar autenticação two-factor",
+    "description": "Ativar 2FA em contas importantes",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-15T09:00:00Z",
+    "updatedAt": "2023-11-15T10:15:00Z"
+  },
+  {
+    "title": "Planejar festa de aniversário",
+    "description": "Lista de convidados, comida e decoração",
+    "status": "PENDING",
+    "createdAt": "2023-11-16T17:00:00Z",
+    "updatedAt": "2023-11-16T17:00:00Z"
+  },
+  {
+    "title": "Resolver bug no sistema",
+    "description": "Corrigir problema relatado no módulo de relatórios",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-17T08:00:00Z",
+    "updatedAt": "2023-11-17T11:45:00Z"
+  },
+  {
+    "title": "Fazer alongamento diário",
+    "description": "Sessão de 15 minutos para melhorar flexibilidade",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-18T07:30:00Z",
+    "updatedAt": "2023-11-19T07:30:00Z"
+  },
+  {
+    "title": "Ler novo livro adquirido",
+    "description": "Iniciar leitura do livro sobre gestão do tempo",
+    "status": "PENDING",
+    "createdAt": "2023-11-19T21:00:00Z",
+    "updatedAt": "2023-11-19T21:00:00Z"
+  },
+  {
+    "title": "Enviar feedback para equipe",
+    "description": "Preparar avaliações de desempenho trimestral",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-20T14:00:00Z",
+    "updatedAt": "2023-11-21T10:00:00Z"
+  },
+  {
+    "title": "Testar nova ferramenta de produtividade",
+    "description": "Avaliar se atende às necessidades da equipe",
+    "status": "PENDING",
+    "createdAt": "2023-11-21T11:00:00Z",
+    "updatedAt": "2023-11-21T11:00:00Z"
+  },
+  {
+    "title": "Agendar dias de folga",
+    "description": "Marcar feriados prolongados no calendário",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-22T09:30:00Z",
+    "updatedAt": "2023-11-22T10:00:00Z"
+  },
+  {
+    "title": "Otimizar consultas SQL",
+    "description": "Analisar e melhorar performance de queries críticas",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-23T08:00:00Z",
+    "updatedAt": "2023-11-24T08:00:00Z"
+  },
+  {
+    "title": "Trocar óleo do carro",
+    "description": "Levar para troca de óleo e filtros",
+    "status": "CANCELLED",
+    "createdAt": "2023-11-24T15:00:00Z",
+    "updatedAt": "2023-11-25T09:00:00Z"
+  },
+  {
+    "title": "Participar de evento de networking",
+    "description": "Conferência anual de tecnologia às 18h",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-25T16:00:00Z",
+    "updatedAt": "2023-11-25T20:30:00Z"
+  },
+  {
+    "title": "Criar plano de estudos",
+    "description": "Definir cronograma para aprender novo framework",
+    "status": "PENDING",
+    "createdAt": "2023-11-26T10:00:00Z",
+    "updatedAt": "2023-11-26T10:00:00Z"
+  },
+  {
+    "title": "Fazer limpeza profunda na geladeira",
+    "description": "Descongelar e higienizar completamente",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-27T14:00:00Z",
+    "updatedAt": "2023-11-27T16:30:00Z"
+  },
+  {
+    "title": "Revisar metas pessoais",
+    "description": "Avaliar progresso e ajustar objetivos para próximo ano",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-11-28T19:00:00Z",
+    "updatedAt": "2023-11-29T19:00:00Z"
+  },
+  {
+    "title": "Comprar suplementos vitamínicos",
+    "description": "Repor vitamina D e magnésio",
+    "status": "PENDING",
+    "createdAt": "2023-11-29T12:00:00Z",
+    "updatedAt": "2023-11-29T12:00:00Z"
+  },
+  {
+    "title": "Configurar ambiente de desenvolvimento",
+    "description": "Preparar máquina para novo projeto",
+    "status": "COMPLETED",
+    "createdAt": "2023-11-30T08:00:00Z",
+    "updatedAt": "2023-11-30T10:45:00Z"
+  },
+  {
+    "title": "Escrever artigo técnico",
+    "description": "Artigo sobre padrões de arquitetura de software",
+    "status": "PENDING",
+    "createdAt": "2023-12-01T15:00:00Z",
+    "updatedAt": "2023-12-01T15:00:00Z"
+  },
+  {
+    "title": "Renovar assinatura de serviço",
+    "description": "Renovar plano anual do editor de código",
+    "status": "COMPLETED",
+    "createdAt": "2023-12-02T11:00:00Z",
+    "updatedAt": "2023-12-02T11:15:00Z"
+  },
+  {
+    "title": "Participar de workshop online",
+    "description": "Workshop sobre técnicas de apresentação",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-12-03T13:00:00Z",
+    "updatedAt": "2023-12-04T13:00:00Z"
+  },
+  {
+    "title": "Organizar cabos e fios",
+    "description": "Identificar e arrumar embrulho de cabos",
+    "status": "PENDING",
+    "createdAt": "2023-12-04T17:00:00Z",
+    "updatedAt": "2023-12-04T17:00:00Z"
+  },
+  {
+    "title": "Fazer análise de mercado",
+    "description": "Pesquisar concorrentes e tendências",
+    "status": "COMPLETED",
+    "createdAt": "2023-12-05T09:00:00Z",
+    "updatedAt": "2023-12-05T12:00:00Z"
+  },
+  {
+    "title": "Assistir tutorial de design",
+    "description": "Aprender princípios básicos de UI/UX",
+    "status": "CANCELLED",
+    "createdAt": "2023-12-06T20:00:00Z",
+    "updatedAt": "2023-12-07T09:00:00Z"
+  },
+  {
+    "title": "Revisar política de privacidade",
+    "description": "Atualizar termos conforme nova legislação",
+    "status": "COMPLETED",
+    "createdAt": "2023-12-07T14:00:00Z",
+    "updatedAt": "2023-12-08T11:00:00Z"
+  },
+  {
+    "title": "Planejar doações de fim de ano",
+    "description": "Selecionar instituições e valores para doar",
+    "status": "IN_PROGRESS",
+    "createdAt": "2023-12-08T18:00:00Z",
+    "updatedAt": "2023-12-09T18:00:00Z"
+  },
+  {
+    "title": "Configurar lembretes automáticos",
+    "description": "Agendar notificações para tarefas recorrentes",
+    "status": "PENDING",
+    "createdAt": "2023-12-09T10:00:00Z",
+    "updatedAt": "2023-12-09T10:00:00Z"
+  },
+  {
+    "title": "Preparar demonstração para cliente",
+    "description": "Ensaiar apresentação do produto novo",
+    "status": "COMPLETED",
+    "createdAt": "2023-12-10T08:30:00Z",
+    "updatedAt": "2023-12-10T11:00:00Z"
+  },
+  {
+    "title": "Fazer lista de resoluções de ano novo",
+    "description": "Definir metas e objetivos para o próximo ano",
+    "status": "CANCELLED",
+    "createdAt": "2023-12-11T21:00:00Z",
+    "updatedAt": "2023-12-12T10:00:00Z"
+  }
+]
