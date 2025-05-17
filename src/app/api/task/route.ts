@@ -179,7 +179,8 @@ export async function GET(request: NextRequest) {
       ordination.order = order;
     }
 
-    const tasksCount = await prisma.task.count();
+    const totalTasks = await prisma.task.count({ where: filter });
+    const tasksFound = await prisma.task.count();
 
     const tasks = await prisma.task.findMany({
       where: filter,
@@ -187,7 +188,7 @@ export async function GET(request: NextRequest) {
       take: pagination.limit,
     });
 
-    const totalPages = Math.ceil(tasksCount / pagination.limit);
+    const totalPages = Math.ceil(totalTasks / pagination.limit);
 
     return new Response(
       JSON.stringify({
@@ -195,8 +196,8 @@ export async function GET(request: NextRequest) {
         message: "Tarefas listadas com sucesso",
         data: tasks,
         metadata: {
-          totalItems: tasksCount, // Total de itens registrados no banco
-          itemsFound: tasks.length, // Total de itens encontrados na página atual
+          totalItems: totalTasks, // Total de itens registrados no banco
+          itemsFound: tasksFound, // Total de itens encontrados com os filtros
           totalPages: totalPages, // Total de páginas
           perPage: pagination.limit, // Limite de itens por página
           currentPage: pagination.page, // Página atual
