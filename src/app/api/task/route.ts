@@ -1,5 +1,6 @@
 import { TaskStatus } from "@/generated/prisma";
 import { prisma } from "@/lib/prisma";
+import { SearchParams } from "@/types/search-params";
 import { NextRequest } from "next/server";
 
 type Filter = {
@@ -52,20 +53,11 @@ const isOrder = (order: string): order is Order => {
   return ORDER_VALUES.includes(order as Order);
 };
 
-type SearchParams = {
-  title?: string;
-  status?: string;
-  page?: string;
-  limit?: string;
-  orderBy?: string;
-  order?: string;
-};
-
 export async function GET(request: NextRequest) {
   try {
-    const searchParams = Object.fromEntries(
+    const searchParams: SearchParams = Object.fromEntries(
       request.nextUrl.searchParams,
-    ) as SearchParams;
+    );
 
     const { title, status, page, limit, orderBy, order } = searchParams;
 
