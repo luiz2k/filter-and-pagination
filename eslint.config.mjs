@@ -23,6 +23,9 @@ const eslintConfig = [
     },
   },
   prettierConfig,
+  {
+    ignores: ["src/generated"],
+  },
 ];
 
 export default eslintConfig;
