@@ -85,10 +85,7 @@ export async function GET(request: NextRequest) {
       pagination.limit = limitIsNumber;
     }
 
-    const ordination: Ordination = {
-      orderBy: "createdAt",
-      order: "desc",
-    };
+    let ordination: Ordination = {};
 
     if (orderBy && order) {
       if (!isOrderBy(orderBy)) {
@@ -110,8 +107,6 @@ export async function GET(request: NextRequest) {
         );
       }
 
-      ordination.orderBy = orderBy;
-
       if (!isOrder(order)) {
         return new Response(
           JSON.stringify({
@@ -125,7 +120,9 @@ export async function GET(request: NextRequest) {
         );
       }
 
-      ordination.order = order;
+      ordination = {
+        [orderBy]: order,
+      };
     }
 
     const totalTasks = await prisma.task.count({ where: filter });
@@ -135,6 +132,7 @@ export async function GET(request: NextRequest) {
       where: filter,
       skip: pagination.skip(),
       take: pagination.limit,
+      orderBy: ordination,
     });
 
     const totalPages = Math.ceil(totalTasks / pagination.limit);

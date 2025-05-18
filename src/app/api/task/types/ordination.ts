@@ -1,6 +1,6 @@
 import { Order } from "@/types/order";
+import { TaskKeys } from "@/types/task-keys";
 
 export type Ordination = {
-  orderBy?: string;
-  order?: Order;
+  [key in TaskKeys]?: Order;
 };
