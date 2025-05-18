@@ -2,56 +2,13 @@ import { TaskStatus } from "@/generated/prisma";
 import { prisma } from "@/lib/prisma";
 import { SearchParams } from "@/types/search-params";
 import { NextRequest } from "next/server";
-
-type Filter = {
-  title?: {
-    startsWith: string;
-  };
-  status?: TaskStatus;
-};
-
-type Pagination = {
-  page: number;
-  limit: number;
-  skip: () => number;
-};
-
-type Ordination = {
-  orderBy?: string;
-  order?: Order;
-};
-
-const isNumber = (number: unknown) => {
-  if (!isNaN(Number(number))) {
-    return Number(number);
-  }
-
-  return false;
-};
-
-const isTaskStatus = (status: string): status is TaskStatus => {
-  return Object.values(TaskStatus).includes(status as TaskStatus);
-};
-
-const ORDER_BY_VALUES = [
-  "title",
-  "description",
-  "status",
-  "createdAt",
-  "updatedAt",
-] as const;
-type OrderBy = (typeof ORDER_BY_VALUES)[number];
-
-const isOrderBy = (orderBy: string): orderBy is OrderBy => {
-  return ORDER_BY_VALUES.includes(orderBy as OrderBy);
-};
-
-const ORDER_VALUES = ["asc", "desc"] as const;
-type Order = (typeof ORDER_VALUES)[number];
-
-const isOrder = (order: string): order is Order => {
-  return ORDER_VALUES.includes(order as Order);
-};
+import { Filter } from "./types/filter";
+import { Ordination } from "./types/ordination";
+import { Pagination } from "./types/pagination";
+import { isNumber } from "./utils/is-number";
+import { isOrder } from "./utils/is-order";
+import { isOrderBy } from "./utils/is-order-by";
+import { isTaskStatus } from "./utils/is-task-status";
 
 export async function GET(request: NextRequest) {
   try {
