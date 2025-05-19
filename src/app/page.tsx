@@ -1,7 +1,3 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>Teste</h1>
-    </div>
-  );
-}
+import { Home } from "@/features/home/home";
+
+export default Home;
